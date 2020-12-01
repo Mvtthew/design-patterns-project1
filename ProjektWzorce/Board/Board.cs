@@ -49,16 +49,43 @@ namespace ProjektWzorce {
 		}
 
 		private void AskForNextMove() {
-			Console.WriteLine("Podaj x:");
-			int moveX = int.Parse(Console.ReadLine());
-			Console.WriteLine("Podaj y:");
-			int moveY = int.Parse(Console.ReadLine());
-			Console.WriteLine("Rusz gdzie (t, b, l, r):");
-			char moveDirection = Char.Parse(Console.ReadLine());
+			try {
+				Console.WriteLine("Podaj x:");
+				int moveX = int.Parse(Console.ReadLine());
+				Console.WriteLine("Podaj y:");
+				int moveY = int.Parse(Console.ReadLine());
+				Console.WriteLine("Rusz gdzie (t, b, l, r):");
+				char moveDirection = Char.Parse(Console.ReadLine());
+				MoveTile(moveX, moveX, moveDirection);
+			} catch { }
 		}
 
-		private void MoveTile() {
-
+		private void MoveTile(int tileX, int tileY, char direction) {
+			try {
+				var movedTile = TileBoard[tileX, tileY];
+				var t = TileBoard[tileX, tileY].Type;
+				switch (direction) {
+					case 't':
+						movedTile.Type = TileBoard[tileX - 1, tileY].Type;
+						TileBoard[tileX - 1, tileY].Type = t;
+						break;
+					case 'b':
+						movedTile.Type = TileBoard[tileX + 1, tileY].Type;
+						TileBoard[tileX + 1, tileY].Type = t;
+						break;
+					case 'l':
+						movedTile.Type = TileBoard[tileX, tileY - 1].Type;
+						TileBoard[tileX, tileY - 1].Type = t;
+						break;
+					case 'r':
+						movedTile.Type = TileBoard[tileX, tileY + 1].Type;
+						TileBoard[tileX, tileY + 1].Type = t;
+						break;
+					default:
+						break;
+				}
+			}
+			catch { }
 		}
 
 	}

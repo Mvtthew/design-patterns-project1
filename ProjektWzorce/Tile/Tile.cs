@@ -5,7 +5,7 @@ using System.Text;
 namespace ProjektWzorce {
 	class Tile {
 
-		TileType Type;
+		public TileType Type;
 
 		public Tile (int posX, int posY) {
 			// when new tile is created type gets randomized
