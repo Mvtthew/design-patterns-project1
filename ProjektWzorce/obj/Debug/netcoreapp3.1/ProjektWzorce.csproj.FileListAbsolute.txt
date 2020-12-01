@@ -1,0 +1,13 @@
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\bin\Debug\netcoreapp3.1\ProjektWzorce.exe
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\bin\Debug\netcoreapp3.1\ProjektWzorce.deps.json
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\bin\Debug\netcoreapp3.1\ProjektWzorce.runtimeconfig.json
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\bin\Debug\netcoreapp3.1\ProjektWzorce.runtimeconfig.dev.json
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\bin\Debug\netcoreapp3.1\ProjektWzorce.dll
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\bin\Debug\netcoreapp3.1\ProjektWzorce.pdb
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\obj\Debug\netcoreapp3.1\ProjektWzorce.csprojAssemblyReference.cache
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\obj\Debug\netcoreapp3.1\ProjektWzorce.AssemblyInfoInputs.cache
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\obj\Debug\netcoreapp3.1\ProjektWzorce.AssemblyInfo.cs
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\obj\Debug\netcoreapp3.1\ProjektWzorce.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\obj\Debug\netcoreapp3.1\ProjektWzorce.dll
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\obj\Debug\netcoreapp3.1\ProjektWzorce.pdb
+C:\Users\Mateusz\source\repos\ProjektWzorce\ProjektWzorce\obj\Debug\netcoreapp3.1\ProjektWzorce.genruntimeconfig.cache
