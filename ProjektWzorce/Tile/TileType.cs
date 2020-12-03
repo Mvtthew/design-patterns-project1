@@ -7,6 +7,7 @@ namespace ProjektWzorce
 	enum TileType {
 		GemRed,
 		GemGreen,
-		GemBlue
+		GemBlue,
+		GemPurple
 	}
 }

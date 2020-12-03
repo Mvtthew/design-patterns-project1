@@ -7,12 +7,12 @@ namespace ProjektWzorce {
 
 		public TileType Type;
 
-		public Tile (int posX, int posY) {
+		public Tile () {
 			// when new tile is created type gets randomized
 			this.Type = (TileType)this.GetRandomTileType();
 		}
 
-		public Tile (int posX, int posY, TileType type) {
+		public Tile (TileType type) {
 			this.Type = type;
 		}
 
@@ -24,11 +24,13 @@ namespace ProjektWzorce {
 		public new string ToString() {
 			switch(this.Type) {
 				case TileType.GemRed:
-					return "R";
+					return "1";
 				case TileType.GemGreen:
-					return "G";
+					return "2";
 				case TileType.GemBlue:
-					return "B";
+					return "3";
+				case TileType.GemPurple:
+					return "4";
 				default:
 					return "";
 			}
