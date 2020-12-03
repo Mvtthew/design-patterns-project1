@@ -24,13 +24,13 @@ namespace ProjektWzorce {
 		public new string ToString() {
 			switch(this.Type) {
 				case TileType.GemRed:
-					return "1";
+					return "R";
 				case TileType.GemGreen:
-					return "2";
+					return "D";
 				case TileType.GemBlue:
-					return "3";
+					return "C";
 				case TileType.GemPurple:
-					return "4";
+					return "S";
 				default:
 					return "";
 			}
